@@ -359,7 +359,6 @@ export default function ICForm({ role, token, contractorPrefill }) {
           <p>
             <b>Consent:</b> {consent ? 'Consented' : 'Not Consented'} · <b>IP:</b> {ip || 'Unavailable'} · <b>UA:</b> {ua || 'Unavailable'}
           </p>
-        </div>
       </div>
     </div>
   );
