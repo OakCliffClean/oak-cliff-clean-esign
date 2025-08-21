@@ -364,8 +364,3 @@ export default function ICForm({ role, token, contractorPrefill }) {
     </div>
   );
 }
-
-</div>
-</div>
-);
-}
