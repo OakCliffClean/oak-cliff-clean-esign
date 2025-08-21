@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your extra utilities (used by the snippet) */
+.wm { 
+  position: fixed; 
+  top: 50%; left: 50%; 
+  transform: translate(-50%, -50%) rotate(-18deg); 
+  opacity: 0.08; 
+  width: 70%; 
+  z-index: 0; 
+}
+.print-surface { position: relative; z-index: 1; }
+
+/* Optional: nicer default typography for preview area */
+.prose { max-width: none; }
+
+@media print {
+  img { max-height: 64px; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
