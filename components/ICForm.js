@@ -364,3 +364,6 @@ export default function ICForm({ role, token, contractorPrefill }) {
     </div>
   );
 }
+export default function ICForm() {
+  // ...the body of your Tailwind component exactly as you pasted...
+}
