@@ -1,7 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-</div>
-</div>
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 
+const WATERMARK = "data:image/png;base64, ..."; // keep as-is or replace with your base64
+
+function SignaturePad({ label, value, onChange, height = 140 }) {
+  // (rest of the file continues…)
 
 {/* Right: print preview */}
 <div id="printable" className="card prose" style={{position:'relative'}}>
